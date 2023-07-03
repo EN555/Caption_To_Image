@@ -1,7 +1,8 @@
 # Image-to-Caption Task: Generating Descriptive Captions for Images
 This repository contains the code and resources for the Image-to-Caption task, which involves generating descriptive captions for images. The task is based on the Kaggle dataset available at dataset link.
 
-![image](https://github.com/EN555/Caption_To_Image/assets/61500507/cf35e4ec-3b7b-4eb2-8570-c2f4adfc027f)
+![](https://github.com/EN555/Caption_To_Image/assets/61500507/cf35e4ec-3b7b-4eb2-8570-c2f4adfc027f)
+*This image is taken from the Toward Data Science - Image Captioning by Translational Visual-to-Language Models by Can Kocagil*
 
 # Description
 The dataset consists of a collection of images along with their corresponding captions. The goal is to build a model that can automatically generate accurate and meaningful captions for previously unseen images.
