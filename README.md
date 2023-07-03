@@ -11,7 +11,7 @@ The Image-to-Caption task offers an exciting opportunity to explore the fields o
 # Getting Started
 To get started with the project, follow these steps:
 
-Clone the repository: git clone https://github.com/your-username/your-repo.git
+Clone the repository: git clone https://github.com/EN555/Caption_To_Image.git
 Install the required dependencies: pip install -r requirements.txt
 Run the pre-processing scripts to prepare the data for training and evaluation.
 Explore different models and techniques for caption generation.
