@@ -16,12 +16,8 @@ class imageCaptionsDataset(Dataset):
     def __getitem__(self, idx):
         image = self.data[idx][0]
         caption = self.tokenizer.encode(self.data[idx][1])
-        return image, caption
+        return image, torch.tensor(caption)
 
-
-class MyCollate:
-    def __init__(self, pad_idx):
-        pass
 
 
 if __name__ == '__main__':
