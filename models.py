@@ -34,7 +34,7 @@ class decodeImage(nn.Module):
 
     def forward(self, encoding, caption):
         caption = self.embedding(caption)
-        encoding = torch.transpose(encoding, 0, 1)
+        caption = torch.transpose(caption, 0, 1)
         x = caption.unsqueeze(1).expand(caption.size(0), encoding.size(1), caption.size(1))
         x = torch.cat(encoding, x)
         x = x.reshape(caption.size(0), caption.size(1),-1)
