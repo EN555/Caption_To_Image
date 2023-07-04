@@ -69,10 +69,8 @@ class EncoderDecoder(nn.Module):
     def recursive_method(self, input, padding_idx, max_len=30):
         hidden = None
         input = self.encdoer(input)
-        img = 1
         for idx, _ in enumerate(range(max_len)):
             output, hidden = self.decoder(input=input, hidden=hidden, img=0 if idx == 0 else 1)
-            img = 0
             softmax = torch.softmax(output, dim=1)
             output = input
 
